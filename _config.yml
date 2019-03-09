@@ -1,0 +1,119 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://zllclang.github.io
+date_format: "ordinal"
+title: 源代码
+subtitle: ""
+description: "zllclang's blog"
+keywords: 源代码
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: zllclang
+organization: Weibo, Inc.
+organization_url: http://www.weibo.com
+github_username: zllclang
+location: Hangzhou, China
+email: zllclang@163.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /archives/
+    label: 归档
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: zllclang/zllclang.github.io
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: zllclang
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: boltio
+    repo: comments
+    oauth:
+        client_id: 0b2581a68195c6b60aa0 
+        client_secret: b8fe9608438aae61baf8e42ad4852602d83d361e
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: boltio
+    repo: comments
+    clientID: 0b2581a68195c6b60aa0
+    clientSecret: b8fe9608438aae61baf8e42ad4852602d83d361e
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-135895925-1
