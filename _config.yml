@@ -107,8 +107,8 @@ gitment:
 gitalk:
     owner: boltio
     repo: comments
-    clientID: 0b2581a68195c6b60aa0
-    clientSecret: b8fe9608438aae61baf8e42ad4852602d83d361e
+    clientID: 7be0e59e60afb13c0b1b
+    clientSecret: d8e2c1112750df06e88bcc34ea1d180a9dab4028
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
