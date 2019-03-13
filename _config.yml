@@ -101,8 +101,8 @@ gitment:
     owner: boltio
     repo: comments
     oauth:
-        client_id: 0b2581a68195c6b60aa0 
-        client_secret: b8fe9608438aae61baf8e42ad4852602d83d361e
+        client_id: 7be0e59e60afb13c0b1b 
+        client_secret: d8e2c1112750df06e88bcc34ea1d180a9dab4028
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: boltio
